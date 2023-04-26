@@ -1,0 +1,19 @@
+import numpy as np
+
+l=[]
+t="yes"
+i=1
+while i>0:
+    a=(input(print("PLEASE ENTER ELEMENT")))
+    l.append(a)
+    t=input(print("IF YOU WANT TO ENTER - WRITE 'yes' ,OTHERWISE - WRITE 'no'"))
+    if t!="yes":
+        break;
+l1=(np.array(l))
+d={}
+print(type(d))
+len(l)
+
+for j in range(0,len(l)):
+    d.update({str(l1[j]) :str(l1[j].upper())})
+print(d)
