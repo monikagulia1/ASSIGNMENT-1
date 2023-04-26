@@ -1,0 +1,10 @@
+a=input(print("ENTER STRING"))
+f=""
+for i in range(0,len(a)):
+    if ord(a[i])%2==0:
+        f=f+a[i].upper()
+    else:
+        f=f+a[i].lower()
+print(f"AFTER ASCII CAPITLAISATION- {f}")
+a=a.replace(a,f)
+print(a)
