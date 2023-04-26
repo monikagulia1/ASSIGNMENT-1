@@ -1,0 +1,15 @@
+d={"c" :1,"b" :2,"a":0}
+print(type(d))
+k=[]
+
+k=list(d.keys())
+r=len(d)
+n=[(),()]
+final=[]
+for i in range(r):
+    n=(k[i],int(d.get(k[i])))
+    final.append(n)
+    
+final  
+    
+    
